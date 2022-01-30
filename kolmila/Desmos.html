@@ -3,13 +3,17 @@
   <head>
     <title>Kol Mila</title>
     <script src="https://www.desmos.com/api/v1.6/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6&lang=all"></script>
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <center><div id="calc" style="width: 2500px; height: 1200px;"></div></center> 
     <script src="main.js"></script> 
   </head>
   <body>
     <div>
       <br/>
-      <center><input  id="userInput" type="text" style='border:none;text-align:center;font-size:22px;font-family:m; background-color:none;outline:none;' maxlength="100" size="100" placeholder="הקלד/י כאן"  ></center>
+      <div class="box"></div>
+      <c><input  id="userInput"  type="text" style='border:none;text-align:center;font-size:22px;font-family:m; background-color:none;outline:none; font-family:  Miriam Libre, sans-serif;' maxlength="100" size="100" placeholder="הקלד/י כאן"></c enter>
       
       <center><button onclick="callApi();" style='
         background-color: #1b1b1b;
@@ -21,9 +25,11 @@
         display: inline-block;
         font-size: 16px;
         margin: 4px 2px;
+        font-family: Miriam Libre, sans-serif;
         cursor: pointer;'>התחל</button> </center>
       <br/>
             <br/>
+
       
     </div>
 

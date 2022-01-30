@@ -4,6 +4,7 @@ function callApi(){
 const userInput = document.getElementById('userInput');
 runAlgorithm(userInput);
 }
+// var icon = document.getElementsByClassName("dcg-icon-desmos").style.display = "none"
 
 function runAlgorithm(a){
     const userInput = a ;
@@ -29,6 +30,7 @@ function runAlgorithm(a){
       // referer: "https://nakdan.dicta.org.il/",
       "accept-language": "en-US,en;q=0.9",
       "Content-Type": "application/json; charset=UTF-8",
+
     },
     body: JSON.stringify({
       task: "nakdan",

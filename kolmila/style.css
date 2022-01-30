@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+.userInput::placeholder{
+    font-family: 'Miriam Libre', sans-serif;
+}
+.dcg-icon-desmos{
+    display: none;
+
+}
+.dcg-noedit-branding{
+    display: none;
+}
